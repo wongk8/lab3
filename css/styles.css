@@ -5,3 +5,77 @@
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+body {
+	background-image:url("../img/sandpaper.png");
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+}
+
+article{
+	width: 90%;
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	background-color: #907A46;
+	padding: 10px;
+	font-family: "Cantora One", sans-serif;
+	font-size: 200%;
+	color: #EEEDEA;
+}
+
+header img{
+	height: 60px;
+	float: right;
+	opacity: 0.7;
+}
+
+header img:hover {
+	opacity: 1;
+}
+
+header h1{
+	line-height: 60px;
+	display: inline-block;
+}
+
+figure {
+	display: inline-block;
+	padding: 10px;
+	background-color: #FFF;
+}
+
+figcaption {
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+}
+
+figure img {
+	width: 200px;
+	border: solid 10px #EEE;
+	border-radius: 2px;
+}
+
+figure:hover {
+	box-shadow: 2px 2px 6px #555;
+ 
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;     
+
+	-webkit-transform: scale(1.5) rotate(-5deg);
+	-moz-transform: scale(1.5) rotate(-5deg);
+	-o-transform: scale(1.5) rotate(-5deg);
+	-ms-transform: scale(1.5) rotate(-5deg);
+	transform: scale(1.5) rotate(-5deg);           
+}
+
+
+
